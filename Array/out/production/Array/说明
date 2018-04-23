@@ -1,0 +1,19 @@
+实现一个动态数组类
+
+插入操作复杂度：
+1. add(index, e), O(n)
+2. addFirst(e), O(n)
+3. addLast(e), O(1)
+
+删除操作复杂度：
+1. remove(index), O(n)
+2. removeFirst(), O(n)
+3. removeLast(), O(1)
+
+查找操作复杂度：
+1. get(index), O(1)
+2. contain(e), O(n)
+3. find(e), O(n)
+
+修改操作复杂度
+1. set(index, e), O(1)
