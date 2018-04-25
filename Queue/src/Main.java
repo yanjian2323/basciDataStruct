@@ -26,5 +26,16 @@ public class Main {
         loopQueue.dequeue();
         System.out.println(loopQueue);
 //        System.out.println("after call dequeue:" + loopQueue);
+        System.out.println("");
+
+        //基于栈的队列
+        LinkListQueue<Integer> linkListQueue = new LinkListQueue<>();
+        for (int i = 0; i < 5; i++) {
+            linkListQueue.enqueue(i);
+        }
+        System.out.println("linklist init:" + linkListQueue);
+        linkListQueue.dequeue();
+        linkListQueue.dequeue();
+        System.out.println("after call dequeue two times:" + linkListQueue);
     }
 }
